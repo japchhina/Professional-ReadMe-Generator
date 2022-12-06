@@ -2,6 +2,7 @@
   ![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)
   ## Description
   undefined
+  $(inquirerResponses.description)
   ## Installation
   In order to install necessary dependencies, run the following command:
   undefined
@@ -10,7 +11,6 @@
   undefined
   ## Usage
   undefined
-  $(renderLicenseSection(data.license))
   ## Contribution
   undefined
   ## Contact

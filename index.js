@@ -59,7 +59,5 @@ function init() {
         writeToFile("README.md", generateMarkdown({...inquirerResponses}));
     });
 }
-
-
 // Function call to initialize app
 init();
