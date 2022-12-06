@@ -31,7 +31,6 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data.license)}
   ## Description
   ${data.description}
-  $(inquirerResponses.description)
   ## Installation
   In order to install necessary dependencies, run the following command:
   ${data.installation}
