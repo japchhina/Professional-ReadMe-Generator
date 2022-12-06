@@ -44,8 +44,8 @@ const questions = [
     },
     {
     type: 'input',
-    name: 'Contributing',
-    message: 'What are the guidelines for contributing to your project?',
+    name: 'Contribution',
+    message: 'Who are the contributors?',
     },
 ];
 // TODO: Create a function to write README file

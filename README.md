@@ -1,16 +1,19 @@
-# Professional-ReadMe-Generator
-
-## Description
-It is a professional readme generator, that will generate your read me for your projects. It will ask you a series of questions and then generate a readme for you.
-
-## Usage
-Run the index.js file in your terminal. Answer the questions and then a readme will be generated for you.
-
-## Installation
-To install this application, you will need to install node.js and inquirer. Once installed, you will run the index.js file in your terminal.
-
-## Credits
-Japbir Chhina
-
-## License
-Refer to License in repo.
+# undefined
+  ![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)
+  ## Description
+  undefined
+  ## Installation
+  In order to install necessary dependencies, run the following command:
+  undefined
+  ## Test
+  In order to test run the following command:
+  undefined
+  ## Usage
+  undefined
+  $(renderLicenseSection(data.license))
+  ## Contribution
+  undefined
+  ## Contact
+  You can reach me at the following email address with any questions: undefined
+  You can also find me on GitHub at the following link: [undefined](https://github.com/undefined)
+  

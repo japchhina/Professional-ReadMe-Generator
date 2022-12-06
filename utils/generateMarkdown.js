@@ -11,24 +11,19 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
     if (license !== 'None') {
-        return (
-          '* [License](#license)'
-        )
+        return '\n* [License](#license)\n'; 
       }
       return ''
-}
+    }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
     if (license !== 'None') {
-        return (
-          '## License This project is licensed under the ${license} license.'
-        )
+        return '## License This project is licensed under the ${license} license.';
       }
       return ''
-
-}
+    }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -36,15 +31,6 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data.license)}
   ## Description
   ${data.description}
-  ## Table of Contents
-  - [Questions](#Questions)
-  - [Description](#Description)
-  - [Installation](#installation)
-  - [Usage](#Usage)
-  $(renderLicenseLink(data.license))
-  - [Questions](#Questions)
-  - [Installation](#installation)
-  - [Contribution](#Contribution)
   ## Installation
   In order to install necessary dependencies, run the following command:
   ${data.installation}
@@ -53,10 +39,9 @@ function generateMarkdown(data) {
   ${data.test}
   ## Usage
   ${data.usage}
-  $(renderLicenseSection(data.license))
   ## Contribution
   ${data.contribution}
-  ## Questions
+  ## Contact
   You can reach me at the following email address with any questions: ${data.email}
   You can also find me on GitHub at the following link: [${data.github}](https://github.com/${data.github})
   `;
